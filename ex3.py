@@ -3,6 +3,9 @@
 #Escreva um programa que leia a quantidade de dias, horas, 
 #minutos e segundos do usuário. Calcule o total em segundos
 
+print ("Coletânea de atividades do curso Python para zumbis")
+print("=========================")
+
 dia = int(input ("Insira os dias : "))
 horas = int(input ("Insira as horas: "))
 minutos = int(input ("Insira os minutos: "))
