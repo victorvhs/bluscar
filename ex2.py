@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*- 
-#Exercio numero 
+#Exercio numero 2
 #Escreva um programa que leia um valor em metros
 # e o exiba convertido em milímetros
 #nota 1 metro = 1000 milímetros
