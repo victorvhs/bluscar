@@ -6,5 +6,6 @@ nun = int( input("Digite o numero: "))
 i = 0
 
 while i <= nun:
-	print(i)
+	if i%2 == 0:
+		print(i)
 	i=i+1
