@@ -3,7 +3,7 @@
 #Imprima de 1 ate n
 
 nun = int( input("Digite o numero: "))
-i = 0
+i = 1
 
 while i <= nun:
 	print (i)
