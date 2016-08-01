@@ -13,7 +13,7 @@ taxa_B = 0.015
 i = 1
 while True:
 	pais_A = (pais_A * taxa_A) + pais_A
-	pais_B = (pais_B* taxa_B) + pais_B
+	pais_B = (pais_B * taxa_B) + pais_B
 	
 	print("Ano %d\nPaís A: %10d \nPaís B: %10d\n" %(i,pais_A,pais_B))
 	i+=1
