@@ -1,9 +1,9 @@
 import random
 i = 0
 lista = []
-while i <= 15:
-         n = random.randint(10,100)
-         for k in lista:
-             if k != n:
-             lista.append(n)
-         i+=1
+while len(lista) < 15:
+	n = random.randint(10,100)
+	if n not in lista:
+		lista.append(n)
+	lista.sort()
+print(lista)
