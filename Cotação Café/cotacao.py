@@ -1,6 +1,6 @@
 import urllib.request
 """
-    Programa simples para pegar a cotação do cafe e a data atual.
+    Programa simples para pegar a cotação do cafe e a data.
 """
 pg = urllib.request.urlopen('http://beans.itcarlow.ie/prices.html')
 texto = pg.read().decode('utf8')
